@@ -2,9 +2,9 @@
 用微信小程序技术开发的音乐播放器
 
 ## 展示
-![avatar](https://github.com/Inchill/musicplayer/blob/master/images/show/recommend.png)
-![avatar](https://github.com/Inchill/musicplayer/blob/master/images/show/player.png)
-![avatar](https://github.com/Inchill/musicplayer/blob/master/images/show/playlist.png)
+<img src="https://github.com/Inchill/musicplayer/blob/master/images/show/recommend.png" width="300">
+<img src="https://github.com/Inchill/musicplayer/blob/master/images/show/player.png" width="300">
+<img src="https://github.com/Inchill/musicplayer/blob/master/images/show/playlist.png" width="300">
 
 ## 前言
 自己最近在学习小程序开发，因此“依葫芦画瓢“，弄了这一个项目出来。当理论和实践一起进行时，个人的成长才是既有质量又有速度的。
