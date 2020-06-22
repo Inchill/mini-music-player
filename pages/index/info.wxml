@@ -1,0 +1,52 @@
+<scroll-view class="content-info" scroll-y>
+  <!-- 轮播图 -->
+  <swiper class="content-info-slide" indicator-color="rgba(255, 255, 255, .5)"
+  indicator-active-color="#fff" indicator-dots circular autoplay>
+    <swiper-item>
+      <image src="/images/banner1.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner2.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/banner3.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 功能按钮 -->
+  <view class="content-info-portal">
+    <view>
+      <image src="/images/player/fm.png"></image>
+      <text>私人FM</text>
+    </view>
+    <view>
+      <image src="/images/player/yinyue.png"></image>
+      <text>每日歌曲推荐</text>
+    </view>
+    <view>
+      <image src="/images/player/hot.png"></image>
+      <text>排行榜</text>
+    </view>
+  </view>
+  <!-- 热门音乐 -->
+  <view class="content-info-list">
+    <view class="list-title">推荐歌曲</view>
+    <view class="list-inner">
+      <view class="list-item">
+        <image src="/images/cover/shots.jpg"></image>
+        <view>shots</view>
+      </view>
+      <view class="list-item">
+        <image src="/images/cover/稻香.jpg"></image>
+        <view>稻香</view>
+      </view>
+      <view class="list-item">
+        <image src="/images/cover/夏天的风.jpg"></image>
+        <view>夏天的风</view>
+      </view>
+      <view class="list-item">
+        <image src="/images/cover/平凡之路.jpg"></image>
+        <view>平凡之路</view>
+      </view>
+    </view>
+  </view>
+</scroll-view>

@@ -1,0 +1,43 @@
+<!-- 标签页标题 -->
+<view class="tab">
+  <view class="tab-item {{tab === 0 ? 'active' : ''}}" bindtap="changeItem" data-item="0">
+    音乐推荐
+  </view>
+  <view class="tab-item {{tab === 1 ? 'active' : ''}}" bindtap="changeItem" data-item="1">
+    播放器
+  </view>
+  <view class="tab-item {{tab === 2 ? 'active' : ''}}" bindtap="changeItem" data-item="2">
+    播放列表
+  </view>
+</view>
+<!-- 内容区域 -->
+<view class="content">
+  <swiper current="{{item}}" bindchange="changeTab">
+    <swiper-item>
+      <include src="info.wxml" />
+    </swiper-item>
+    <swiper-item>
+      <include src="play.wxml" />
+    </swiper-item>
+    <swiper-item>
+      <include src="playlist.wxml" />
+    </swiper-item>
+  </swiper>
+</view>
+<!-- 底部播放器 -->
+<view class="player">
+  <image class="player-cover" src="{{play.coverImgUrl}}"></image>
+  <view class="player-info">
+    <view class="player-info-title">{{play.title}}</view>
+    <view class="play-info-singer">{{play.singer}}</view>
+  </view>
+  <view class="player-controls">
+    <!-- 切换到播放列表 -->
+    <image src="/images/player/liebiao.png" bindtap="changePage" data-page="2"></image>
+    <!-- 播放 -->
+    <image wx:if="{{state==='paused'}}" src="/images/player/bofang.png" bindtap="play"></image>
+    <image wx:else src="/images/player/bofangzhong.png" bindtap="pause"></image>
+    <!-- 下一曲 -->
+    <image src="/images/player/next.png" bindtap="next"></image>
+  </view>
+</view>
