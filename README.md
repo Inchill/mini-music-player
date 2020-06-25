@@ -3,9 +3,9 @@
 
 ## 展示
 <div>
-  <img src="https://github.com/Inchill/musicplayer/blob/master/images/show/recommend.png" width="300" style="display: inline-block;">
-  <img src="https://github.com/Inchill/musicplayer/blob/master/images/show/player.png" width="300" style="display: inline-block;">
-  <img src="https://github.com/Inchill/musicplayer/blob/master/images/show/playlist.png" width="300" style="display: inline-block;">
+  <img src="https://github.com/Inchill/musicplayer/blob/master/images/show/recommend.png" width="260" style="display: inline-block;">
+  <img src="https://github.com/Inchill/musicplayer/blob/master/images/show/player.png" width="260" style="display: inline-block;">
+  <img src="https://github.com/Inchill/musicplayer/blob/master/images/show/playlist.png" width="260" style="display: inline-block;">
 </div>
 
 ## 前言
